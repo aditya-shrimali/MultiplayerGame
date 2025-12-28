@@ -8,5 +8,6 @@ export type TokenMeta = {
   roundsCompleted: number;
   homePathIndex?: number;
   isMoving: boolean;
+  lastUsedRollId: number;
 };
 
